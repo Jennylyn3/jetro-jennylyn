@@ -1,0 +1,840 @@
+* {
+    margin: 0;
+   padding: 0;
+  }
+  
+ /* ----------HEADER ---------*/
+ .container {
+  width: 1000px;
+  display: flex;
+  margin: auto; 
+  background-image: url(../IMAGES/background.png);
+  
+  }
+  .container .boximg {
+  padding-bottom: 20px;
+  display: flex;
+  margin: auto;
+  }
+  
+  .logo {
+    padding-top: 30px;
+    height: 35px;
+    margin: auto;
+    margin-left: -3%;
+  }
+
+  .header {
+      width: 1000px;
+      font-size: 1rem;
+      font-weight: bold;
+      padding-top: 30px;
+  }
+  .header ul li {
+      display: inline;
+      margin-right: 1.75rem;
+  }
+  .header a, .header a:visited, .header a:focus, .header a{
+      text-decoration: none;
+      color: #dbdbdb;
+      font-family: bebas;
+      font-size: 25px ;
+  }
+  .header {
+    color: #e8663c;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: right;
+    max-width: 1000px;
+    margin-right: -3%;
+  }
+    
+
+  /* ----------TITLE ---------*/
+.aboutus {
+    background: url(../IMAGES/slider.png);
+    height: 60px;
+}
+
+.abouts {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    background-color: #e8663c;
+    border-left: 11px solid #fff;
+    border-right: 11px solid #fff;
+}
+.title {
+    font-family: bebas;
+    font-size: 1.9rem;
+    color: #fff;
+    margin:10px;
+}
+
+
+  /* ---------- BLOG SECTION ---------*/
+.blog {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.blogsection {
+  width: 100%;
+  padding: 0px 30px 0px 0px;
+}
+  /* ------ POST 1  -----*/
+  .icon {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background-color: #e8603c;
+    left: 85px;
+    text-align: center;
+  }
+  .picon {
+    padding: 20px 0px 20px 0px ;
+  }
+.postsliderr {
+    width: 670px;
+    height: 300px;
+    border: 0px solid#dbdbdb;
+    box-sizing: border-box;
+    padding: 0px;
+}
+.stats {
+  width: 500px;
+}
+.s1 {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  flex-direction: row-reverse;
+}
+.sip1 {
+  font-family: bebas;
+  font-size: 1.5rem;
+  color: #e8663c;
+  margin-bottom: 20px;
+}
+.sip2 {
+  font-family: "helvetica";
+    font-size: 0.83rem;
+    line-height: 1.5em;
+    color: black;
+}
+.sdate, .stag, .scomm {
+  font-family: bebas;
+  font-size: 1rem;
+  color: #e8663c;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.spdate, .sptag, .spcomm {
+  font-family: "helvetica";
+    font-size: 0.83rem;
+    line-height: 1.5em;
+    color: #ccc;
+    margin-bottom: 10px;
+}
+.sep1 {
+  position: absolute;
+  height: 3%;
+  background: url(../IMAGES/header-lines.png) ;
+  width: 675px;
+  margin-top: 40px;
+}
+  /* ------ POST 2  -----*/
+.post2 {
+  margin-top: 100px;
+}
+.icon1 {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-color: #e8603c;
+  left: 85px;
+  text-align: center;
+}
+.picon1 {
+  padding: 20px 0px 20px 0px ;
+}
+.postsliderrr {
+  width: 670px;
+  height: 300px;
+  border: 0px solid#dbdbdb;
+  box-sizing: border-box;
+  padding: 0px;
+}
+.s2 {
+margin: auto;
+display: flex;
+justify-content: space-between;
+margin-top: 20px;
+flex-direction: row-reverse;
+}
+.sdate2, .stag2, .scomm2 {
+font-family: bebas;
+font-size: 1rem;
+color: #e8663c;
+margin-bottom: 5px;
+margin-top: 5px;
+}
+.spdate2, .sptag2, .spcomm2 {
+font-family: "helvetica";
+  font-size: 0.83rem;
+  line-height: 1.5em;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+.sep2 {
+  position: absolute;
+  height: 3%;
+  background: url(../IMAGES/header-lines.png) ;
+  width: 675px;
+  margin-top: 50px;
+}
+  /* ------ POST 3  -----*/
+.post3{
+  margin-top: 100px;
+}
+.icon2 {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-color: #e8603c;
+  left: 85px;
+  text-align: center;
+}
+.picon2 {
+  padding: 20px 0px 20px 0px ;
+}
+.postsliderrrr {
+  width: 670px;
+  height: 300px;
+  border: 0px solid#dbdbdb;
+  box-sizing: border-box;
+  padding: 0px;
+}
+.s3 {
+margin: auto;
+display: flex;
+justify-content: space-between;
+margin-top: 20px;
+flex-direction: row-reverse;
+}
+.sdate3, .stag3, .scomm3 {
+font-family: bebas;
+font-size: 1rem;
+color: #e8663c;
+margin-bottom: 5px;
+margin-top: 5px;
+}
+.spdate3, .sptag3, .spcomm3 {
+font-family: "helvetica";
+  font-size: 0.83rem;
+  line-height: 1.5em;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+.sep3 {
+  position: absolute;
+  height: 3%;
+  background: url(../IMAGES/header-lines.png) ;
+  width: 675px;
+  margin-top: 50px;
+}
+  /* ------ POST 4  -----*/
+
+.post4 {
+  margin-top: 120px;
+}
+.quoteicon {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-color: #e8603c;
+  left: 85px;
+  text-align: center;
+}
+.quoteout {
+  padding: 20px 0px 20px 0px ;
+}
+.quoteicon1 {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  left: 200px;
+  text-align: center;
+}
+.quotein {
+  padding-top: 12px;
+  margin-left: 0px;
+}
+.pbox {
+  width: 670px;
+  height: 75px;
+  background-color: #cccc;
+}
+.pcontent {
+  padding-top: 17px;
+  margin-left:80px;
+  font-family: "helvetica";
+    font-size: 0.83rem;
+    line-height: 1.5em;
+    color: black;
+    font-style: italic;
+}
+.sep4 {
+  position: absolute;
+  height: 3%;
+  background: url(../IMAGES/header-lines.png) ;
+  width: 675px;
+  margin-top: 50px;
+}
+  /* ------ POST 5  -----*/
+.post5{
+  margin-top: 50px;
+}
+.p5title {
+  font-family: bebas;
+  font-size: 1.5rem;
+  color: #e8663c;
+}
+.p5site {
+  font-family: "helvetica";
+  font-size: 0.83rem;
+  line-height: 1.5em;
+  color: #ccc;
+  margin-bottom: 15px;
+}
+.p5desc {
+  font-family: "helvetica";
+  font-size: 0.83rem;
+  line-height: 1.5em;
+  color: black;
+}
+.sep5{
+  position: absolute;
+  height: 3%;
+  background: url(../IMAGES/header-lines.png) ;
+  width: 675px;
+  margin-top: 40px;
+}
+  /* ---------- PAGINATION ---------*/
+
+.pagination {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  margin-top: 100px;
+}
+.pag1 {
+  width: 25px;
+  height: 25px;
+  color: white;
+  background-color: #e8603c;
+  margin-right: 5px;
+  text-align: center;
+  font-size: large;
+  padding: 4px;
+}
+.pag2 {
+  width: 25px;
+  height: 25px;
+  color: white;
+  background-color: #e8603c;
+  margin-right: 5px;
+  text-align: center;
+  font-size: large;
+  padding: 4px;
+}
+.pag3 {
+  width: 25px;
+  height: 25px;
+  color: white;
+  background-color: #e8603c;
+  margin-right: 15px;
+  text-align: center;
+  font-size: large;
+  padding: 4px;
+}
+/* ---------- SIDEBAR ---------*/
+ /* -- ABOUT --*/
+ .titleabout {
+  font-family: bebas;
+  font-size: 1.2rem;
+  color: #e8663c;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.sepabout{
+  position: absolute;
+  height: 3%;
+  background: url(../IMAGES/header-lines.png) ;
+  width: 125px;
+  right: 173px;
+}
+.paragabout {
+  font-family: "helvetica";
+  font-size: 0.83rem;
+  line-height: 1.5em;
+  color: black;
+}
+ /* -- CATEGORIES --*/
+.categories {
+  margin-top: 20px;
+}
+.titlecategories {
+  font-family: bebas;
+  font-size: 1.2rem;
+  color: #e8663c;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.sepcat{
+  position: absolute;
+  height: 3%;
+  background: url(../IMAGES/header-lines.png) ;
+  width: 125px;
+  right: 173px;
+}
+.contcat {
+  font-family: "helvetica";
+  font-size: 0.83rem;
+  line-height: 1.5em;
+  color: black;
+}
+.contcat ul li {
+  list-style: none;
+}
+ /* -- GALLERY --*/
+.photogallery {
+  margin-top: 20px;
+}
+.titlephoto {
+  font-family: bebas;
+  font-size: 1.2rem;
+  color: #e8663c;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.sepphoto{
+  position: absolute;
+  height: 3%;
+  background: url(../IMAGES/header-lines.png) ;
+  width: 125px;
+  right: 173px;
+}
+.image-wrapper {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 5px 5px;
+}
+.image-border {
+  background-color: #f3af9d;
+  border: 1px solid #e8603c;
+  width: 50px;
+  height: 50px;
+}
+  /* ----------FOOTER ---------*/
+  footer {
+    background: url(../IMAGES/footer-decoration.png);
+  }
+  .footers {
+    margin: auto;
+    display: flex;
+    max-width: 1000px;
+    background-color: #e8663c;
+    border-left: 11px solid #fff;
+    border-right: 11px solid #fff;
+    margin-top: 50px;
+   }
+  .aboutjetro,  .contact  {
+    border: 0px solid #ccc;
+    box-sizing: border-box;
+    width: 33.3%;
+    padding: 35px;
+  }
+  .twitter {
+    border: 0px solid #ccc;
+    box-sizing: border-box;
+    width: 33.3%;
+    padding: 35px 35px 35px 35px;
+  }
+
+  /* ABOUT */
+  .aboutjetro h3 {
+    font-family: bebas;
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  .aboutjetro p {
+    font-family: "helvetica";
+    font-size: 0.78rem;
+    line-height: 1.4em;
+    color: #fff;
+    /* TWITTER */
+  }
+  .twitter h3 {
+    font-family: bebas;
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  .twitter p {
+    font-family: "helvetica";
+    font-size: 0.78rem;
+    line-height: 1.5em;
+    color: #fff;
+  }
+  .twitterpost {
+    margin-bottom: 11px;
+    color: #fff;
+  }
+  .twitterpost a, .twitterpost a:focus, .twitterpost a:visited, .twitterpost a:hover {
+    color: #f3b29d;
+    text-decoration: none;
+  }
+  .twitteruser {
+    color: #f3b29d !important;
+    text-decoration: none;
+  }
+  .twittertime {
+    margin-bottom: 20px;
+    color: #f3b29d !important;
+  }
+  .twitterfolow {
+    margin-top: 5px;
+    color: #fff;
+  }
+  .twitterfollow a, .twitterfollow a:focus, .twitterfollow a:visited, .twitterfollow a:hover {
+    color: #f3b29d;
+    text-decoration: none;
+  }
+  /* CONTACT */
+  .contact h3 {
+    font-family: bebas;
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  .contact p {
+    font-family: "helvetica";
+    font-size: 0.78rem;
+    line-height: 1.5em;
+    color: #fff;
+  }
+  /* ICON */
+  .socialicon {
+    margin-left: 0px;
+    padding-top: 20px;
+  }
+  .socialicon li{
+    display: inline;
+  }
+
+
+
+
+
+
+  @media screen and (max-width: 480px) {
+    *{
+      margin: 0;
+      padding: 0;
+    }
+ 
+    .container {
+      max-width: 480px;
+      width: 100%;
+      display: block;
+    }
+    .logo {
+    position: relative;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: auto;
+    float: left;
+    margin-left: 0;;
+    }
+    .header {
+      max-width: 480px;
+      width: 100%;
+      padding: 0px;
+    }
+.header ul li {
+  margin-right: 15px;
+  display: inline;
+ 
+}
+.header ul {
+  padding: 0px;
+}
+.abouts {
+  max-width: 480px;
+  width: 100%;
+  border: 0;
+}
+.aboutus{
+  position: relative;
+  float: left;
+  width: 100%;
+  max-width: 480px;
+  padding: 0;
+  margin: 0;
+}
+ .about {
+   max-width: 480px;
+   width: 100%;
+   padding: 0;
+ }
+.blog {
+  max-width: 480px;
+  width: 100%;
+  display: block;
+}
+.blogsection {
+  padding: 0;
+  margin-top: 70px;
+}
+
+/* ----------POST 1  ---------- */
+.post1 {
+  max-width: 480px;
+  width: 100%;
+  padding: 2px;
+}
+ .icon {
+  position: relative;
+  left: 0px;
+}
+.post1, .postsliderr {
+  width: 100%;
+}
+.post1, .s1 {
+  margin: 0;
+}
+.s1 {
+  max-width: 480px;
+  width: 100%;
+  padding: 0px;
+}
+.sip1 {
+  margin-bottom: 0;
+}
+.sep1 {
+  margin-top: 0;
+  position: absolute;
+  height: 3%;
+  width: 100%;
+}
+/* ----------POST 2  ---------- */
+.post2 {
+  max-width: 480px;
+  width: 100%;
+  padding: 2px;
+}
+ .icon1 {
+  position: relative;
+  left: 0px;
+}
+.post2, .postsliderrr {
+  width: 100%;
+}
+.post2, .s2 {
+  margin: 0;
+}
+.s2 {
+  max-width: 480px;
+  width: 100%;
+  padding: 0px;
+}
+.sip2 {
+  margin-bottom: 0;
+}
+.sep2 {
+  margin-top: 0;
+  position: absolute;
+  height: 3%;
+  width: 100%;
+}
+/* ---------- POST 3  ---------- */
+.post3{
+  max-width: 480px;
+  width: 100%;
+  padding: 2px;
+}
+ .icon2 {
+  position: relative;
+  left: 0px;
+}
+.postsliderrrr {
+  height: auto;
+    width: 100%;
+}
+.post3, .s3 {
+  margin: 0;
+}
+.s3 {
+  max-width: 480px;
+  width: 100%;
+  padding: 0px;
+}
+.sip2 {
+  margin-bottom: 0;
+}
+.sep3 {
+  margin-top: 0;
+  position: absolute;
+  height: 3%;
+  width: 100%;
+}
+/* ---------- POST 4  ---------- */
+.post4{
+  max-width: 480px;
+  width: 100%;
+  padding: 2px;
+}
+ .quoteicon {
+  position: relative;
+  left: 0px;
+}
+.quoteicon1 {
+  left: 0px;
+  margin-left: 50px;
+}
+.pbox {
+  width: auto;
+}
+.sep4 {
+  margin-top: 0;
+  position: absolute;
+  height: 3%;
+  width: 100%;
+}
+/* ---------- POST 5  ---------- */
+.post5{
+  max-width: 480px;
+  width: 100%;
+  padding: 2px;
+}
+.sep5 {
+  margin-top: 0;
+  position: absolute;
+  height: 3%;
+  width: 75%;
+  margin: auto;
+}
+/* ---------- PAGINATION  ---------- */
+.pagination {
+  max-width: 480px;
+  width: 100%;
+  margin: 30px ;
+}
+
+
+/* ---------- SIDEBAR  ---------- */
+ .sidebar {
+  max-width: 480px;
+  width: 100%;
+  padding: 0.9375rem;
+}
+.sidebar, .aboutportfolio {
+  padding: 0;
+}
+.aboutportfolio, p {
+  padding: 0.9375rem;
+}
+.titleabout {
+  margin-bottom: 0;
+}
+.titleabout, p{
+  margin-top: 0;
+}
+.titleabout .sepabout {
+  width: 25%;
+  position: relative;
+}
+.aboutportfolio, .paragabout {
+  margin-top: 0;
+}
+
+
+.sidebar, .categories {
+  padding: 0;
+}
+.categories {
+  padding: 0.9375rem;
+}
+.titlecategories p{
+  padding: 0.9375rem;
+}
+.titlecategories {
+  margin-bottom: 0;
+}
+.titlecategories, p{
+  margin-top: 0;
+}
+.titlecategories .sepcat {
+  width: 25%;
+}
+.categories, .contcat {
+  margin-top: 0;
+}
+ ul {
+  padding: 0.9375rem;
+}
+
+.photogallery {
+  padding: 0.9375rem;
+  margin-top: 0;
+}
+.titlephoto {
+  margin-bottom: 0;
+}
+
+.titlephoto .sepphoto {
+  width: 25%;
+}
+
+
+
+
+
+
+
+
+
+ footer {
+  max-width: 480px;
+  width: 100%;
+}
+.footers {
+  display: block;
+  padding: 0;
+}
+.aboutjetro,  .contact, .twitter {
+  width: 100%;
+}
+.twitter h3 {
+margin-bottom: 0;
+}
+.twitterpost {
+margin-bottom: 0;
+}
+.twittertime {
+margin-bottom: 0;
+padding: 0px 0px 0px 20px;
+}
+   }
